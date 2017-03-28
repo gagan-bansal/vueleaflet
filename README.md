@@ -37,7 +37,7 @@ You can input some Vue-styled components in a .vue file in order to use leafletj
 
 Before that, you should config the vuex, see [main.js](src/main.js)
 
-```html
+```js
 import Vue from 'vue';
 import Vuex from 'vuex';
 import VueLeaflet from './index'
@@ -59,7 +59,6 @@ new Vue({
   template: '<App/>',
   components: { App },
 });
-
 ```
 
 ## Build Setup
