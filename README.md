@@ -23,7 +23,7 @@ npm install vueleaflet -save
 
 You can input some Vue-styled components in a .vue file in order to use leafletjsm, like [Layout.vue](src/Layout.vue).
 
-```
+```html
 <l-map :zoom="zoom" :center="center" :min-zoom="minZoom" :max-zoom="maxZoom">
   <l-tilelayer :url="url" :attribution="attribution"></l-tilelayer>
   <l-marker :position="center" :title="title" :opacity="opacity" :draggable="draggable">
@@ -37,7 +37,7 @@ You can input some Vue-styled components in a .vue file in order to use leafletj
 
 Before that, you should config the vuex, see [main.js](src/main.js)
 
-```
+```html
 import Vue from 'vue';
 import Vuex from 'vuex';
 import VueLeaflet from './index'
